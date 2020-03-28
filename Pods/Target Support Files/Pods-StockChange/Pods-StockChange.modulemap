@@ -1,0 +1,6 @@
+framework module Pods_StockChange {
+  umbrella header "Pods-StockChange-umbrella.h"
+
+  export *
+  module * { export * }
+}
