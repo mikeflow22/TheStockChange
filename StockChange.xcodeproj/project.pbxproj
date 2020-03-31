@@ -11,6 +11,7 @@
 		1B0ED0B224259C6200A2AAB2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0ED0B124259C6200A2AAB2 /* CoreDataStack.swift */; };
 		1B0ED0B424259FDF00A2AAB2 /* Stock+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0ED0B324259FDF00A2AAB2 /* Stock+Convenience.swift */; };
 		1B250FDA2432659F00CA841A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1B250FD92432659F00CA841A /* README.md */; };
+		1B250FDE2433A1C400CA841A /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B250FDD2433A1C400CA841A /* APIKeys.swift */; };
 		1B619461242A9D3100FC981C /* multipleDayChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B619460242A9D3100FC981C /* multipleDayChange.swift */; };
 		1B88FC492429210C00B00ADF /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88FC482429210C00B00ADF /* StockDetailViewController.swift */; };
 		1B88FC4B242933B500B00ADF /* IntradayPrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88FC4A242933B500B00ADF /* IntradayPrices.swift */; };
@@ -36,6 +37,7 @@
 		1B0ED0B124259C6200A2AAB2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1B0ED0B324259FDF00A2AAB2 /* Stock+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stock+Convenience.swift"; sourceTree = "<group>"; };
 		1B250FD92432659F00CA841A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		1B250FDD2433A1C400CA841A /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		1B619460242A9D3100FC981C /* multipleDayChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleDayChange.swift; sourceTree = "<group>"; };
 		1B88FC482429210C00B00ADF /* StockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StockDetailViewController.swift; path = StockChange/Storyboards/StockDetailViewController.swift; sourceTree = SOURCE_ROOT; };
 		1B88FC4A242933B500B00ADF /* IntradayPrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntradayPrices.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				1BCAF4942425441400C8BB7F /* Core data */,
 				1BE5D5A8242838B1005F85D2 /* Extension */,
 				1BCAF491242543ED00C8BB7F /* Resources */,
+				1B250FDD2433A1C400CA841A /* APIKeys.swift */,
 			);
 			path = StockChange;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				1B0ED0B424259FDF00A2AAB2 /* Stock+Convenience.swift in Sources */,
 				1BCAF49F242545B800C8BB7F /* StockController.swift in Sources */,
 				1BDBC812242B8F390059DEF7 /* StockWishCellTableViewCell.swift in Sources */,
+				1B250FDE2433A1C400CA841A /* APIKeys.swift in Sources */,
 				1BCAF49A242544B500C8BB7F /* StockRepresentation.swift in Sources */,
 				1B0ED0B024259B8200A2AAB2 /* Stock.xcdatamodeld in Sources */,
 				1B0ED0B224259C6200A2AAB2 /* CoreDataStack.swift in Sources */,
