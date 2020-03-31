@@ -9,6 +9,7 @@
 
 import Foundation
 class NetworkController {
+    //token is a string
     private let apiToken = APIKeys.apiToken
     private let baseURL = URL(string: "https://cloud.iexapis.com/stable/")!
 //    private let baseURL = URL(string: "https://sandbox.iexapis.com/stable/")!
@@ -40,7 +41,7 @@ class NetworkController {
         }
         
         print("this is the final url for function: \(#function) -> \(finalURL)")
-        
+        print("just adding something here to commit -- please ignore")
         URLSession.shared.dataTask(with: finalURL) { (data, response, error) in
             if let response = response as? HTTPURLResponse {
                 print("Response in function: \(#function): \(response.statusCode)")
