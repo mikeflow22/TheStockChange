@@ -9,10 +9,10 @@
 
 import Foundation
 class NetworkController {
-    private let apiToken = "pk_5a7448e9cab94f6faa23f671495079af"
+    private let apiToken = APIKeys.apiToken
     private let baseURL = URL(string: "https://cloud.iexapis.com/stable/")!
-//    private let apiToken = "Tpk_f1ebe5c819234861b801496e0e1f6077"
 //    private let baseURL = URL(string: "https://sandbox.iexapis.com/stable/")!
+    
     private let gainersURL = URL(string: "https://cloud.iexapis.com/stable/stock/market/list/gainers?listLimit=50&token=pk_5a7448e9cab94f6faa23f671495079af")!
     static let shared = NetworkController()
     
